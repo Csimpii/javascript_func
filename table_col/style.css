@@ -1,5 +1,26 @@
-table, th, tr, td{
+table, thead, th, tr, td{
     border: 1px solid black;
     border-collapse: collapse;
-};
+    text-align: center;
+}
 
+th {
+    background-color: blue;
+}
+
+table thead~tbody>tr{
+    background-color: cornflowerblue;
+}
+
+table tbody>tr{
+    background-color: burlywood;
+}
+
+tbody tr:nth-child(2n){
+    background-color: green;
+}
+
+
+tbody tr:hover{
+    background-color: blanchedalmond;
+}
