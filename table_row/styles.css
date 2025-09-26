@@ -51,3 +51,7 @@ tr:has(td[rowspan]):hover+tr td{
 tr:has(td[rowspan]):has(+tr:hover) + tr td{
     background-color: plum;
 }
+
+tr:has(td[rowspan]):has(+tr:hover) td{
+    background-color: plum;
+}
